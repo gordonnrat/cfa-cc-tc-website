@@ -1,0 +1,331 @@
+body{
+    margin: 0;
+}
+
+.logo{
+    float:left;
+}
+
+.logo>li a:hover{
+    color: paleturquoise;
+}
+
+.logo>li a{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 25px 16px 25px;
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color: black; 
+    overflow: hidden;
+}
+
+.navright>li a{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 25px 16px 25px;
+    display: block;
+}
+
+.navright>li{
+    float:right;   
+}
+
+.navright>li a:hover{
+    background-color: gray;
+}
+
+.page-title1{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/forest1.jpg) center;
+    background-size:cover;
+    min-height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+.page-title1>h1{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 500px;
+}
+
+.page-title2{
+    background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/forest2.jpg) center;
+    background-size:cover;
+    min-height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+.page-title2>h1{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 500px;
+}
+
+.info-container{
+    background-color: #F5F5F7;
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+
+.info-container>h1{
+    text-align: center;
+    width:50%;
+    font-size: 36px;
+    margin: auto;
+    padding:40px;
+}
+
+.info-container>p{
+    text-align: center;
+    width:70%;
+    margin: auto;
+    padding-bottom: 60px;
+    font-size: 28px;
+    font-family: serif;
+}
+
+.game-container{
+    padding-bottom: 20px;
+}
+
+.game-title{
+    margin:auto;
+    width: 50%;
+    text-align: center;
+    padding: 40px;
+}
+
+.game-title>a{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.game-title>a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.TC{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.TC-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-bottom: 40px ;
+}
+
+.about-TC-left{
+    background-color: #F5F5F7;
+}
+
+.other-TC-right{
+    background-color: #F5F5F7;
+}
+
+.about-TC-left>h1{
+    text-align: center;
+    width:50%;
+    font-size: 34px;
+    margin: auto;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+.about-TC-left>p{
+    text-align: center;
+    width:70%;
+    margin: auto;
+    padding-bottom: 40px;
+    font-size: 28px;
+    font-family: serif;
+}
+
+.other-TC-right>h1{
+    text-align: center;
+    width:50%;
+    font-size: 34px;
+    margin: auto;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+.other-TC-right>p{
+    text-align: center;
+    width:70%;
+    margin: auto;
+    padding-bottom: 40px;
+    font-size: 28px;
+    font-family: serif;
+}
+
+.clock{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}   
+
+.re-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.about-re-left>h1{
+    text-align: center;
+    width:60%;
+    font-size: 36px;
+    margin: auto;
+    padding:40px;
+}
+
+.about-re-left>p{
+    text-align: center;
+    width:70%;
+    margin: auto;
+    padding-bottom: 60px;
+    font-size: 30px;
+    font-family: serif;
+}
+
+.other-re-right>h1{
+    text-align: center;
+    width:50%;
+    font-size: 36px;
+    margin: auto;
+    padding:40px;
+}
+
+.other-re-right>p{
+    text-align: center;
+    width:70%;
+    margin: auto;
+    padding-bottom: 60px;
+    font-size: 30px;
+    font-family: serif;
+}
+
+.resources{
+    padding-bottom: 40px;
+}
+
+.resources>h1{
+    text-align: center;
+    width:50%;
+    font-size: 36px;
+    margin: auto;
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+
+.resources-link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 25px;
+}
+
+.left-resource{
+    background-color: #F5F5F7;
+    text-align: center;
+    padding:20px;
+}
+
+.left-resource>h1{
+    font-size: 32px;
+}
+
+.center-resource>h1{
+    font-size: 32px;
+}
+
+.right-resource>h1{
+    font-size: 32px;
+}
+
+.resources-link{
+    font-size: 28px;
+}
+
+.center-resource{
+    background-color: #F5F5F7;
+    text-align: center;
+    padding:20px;
+}
+
+.right-resource{
+    background-color: #F5F5F7;
+    text-align: center;
+    padding:20px;
+}
+
+.resources-link a{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(20, 20, 211);
+}
+
+.resources-link a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+.bottom-bar>ul{
+    list-style-type: none;
+    text-align: center;
+    margin:0;
+    padding:0;
+    background-color: black; 
+    
+}
+
+.bottom-nav{
+    background-color: black;
+    height: 30px;
+}
+
+.bottom-nav>li a{
+    font-size: 25px;
+    color:aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 25px 16px 25px;
+    display: block;
+}
+
+.bottom-nav>li{
+    display: inline-block;
+}
+
+.bottom-nav>li a:hover{
+    background-color: gray;
+}
